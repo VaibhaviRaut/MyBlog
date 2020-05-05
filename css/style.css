@@ -1,19 +1,19 @@
 /* Container Whole Body */
 
 body{
-  margin: auto;
+  margin: 0 auto;
   font-family: Cambria, sans-serif;
   padding: 25px;
   background: snow;
-  height: 1000px;
-  max-width: 960px;
+  height: 2000px;
+  width: 1000px;
 }
 
 .container{
     max-width: 960px;
     margin: 0 auto;
     padding: 25px;
-    background: bisque;
+    background: #eee;
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -26,12 +26,43 @@ body{
 }
 
 .parallax-window-about {
-    min-height: 300px;
-    padding: 100px 35px;
+    min-height: 50px;
+    padding: 30px 35px;
     background: transparent no-repeat;
     background-size: cover;
 }
 
+.profile{
+    padding: 50px 35px;
+    background: transparent no-repeat;
+    background-size: 0;
+}
+
+.info-about{
+  z-index: 2;
+  position: relative;
+  color: black;
+  text-align: right;
+  min-height: 300px;
+  padding: 30px 35px;
+}
+
+.parallax-window-works {
+    min-height: 300px;
+    padding: 30px 35px;
+    background: transparent no-repeat;
+    background-size: cover;
+}
+
+
+/*
+.parallax-window-about .profile-subtitle{
+  font-size: large;
+  background: transparent no-repeat;
+  font-family: Cambria;
+  object-position: right;
+}
+*/
 /*Nav Styles*/
 
 .header > div{
@@ -63,9 +94,45 @@ body{
   text-transform: uppercase;
 }
 
+.nav-link-wrapper > .about{
+  scroll-behavior: smooth;
+}
 
+/* Works */
+.works-items-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+.works-item-wrapper{
+    position: relative;
+}
 
+.works-img-background{
+    z-index: 2;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper .subtitle{
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: mintcream;
+}
+
+/* Footer */
 #footer{
   padding: 8px;
   color: whitesmoke;
