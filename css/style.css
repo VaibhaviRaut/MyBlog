@@ -1,0 +1,75 @@
+/* Container Whole Body */
+
+body{
+  margin: auto;
+  font-family: Cambria, sans-serif;
+  padding: 25px;
+  background: snow;
+  height: 1000px;
+  max-width: 960px;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 25px;
+    background: bisque;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+ /* Parallex images */
+.parallax-window {
+    min-height: 150px;
+    padding: 100px 35px;
+    background: transparent no-repeat;
+    background-size: cover;
+}
+
+.parallax-window-about {
+    min-height: 300px;
+    padding: 100px 35px;
+    background: transparent no-repeat;
+    background-size: cover;
+}
+
+/*Nav Styles*/
+
+.header > div{
+  padding: 20px;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+}
+
+.nav-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side{
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div{
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav-wrapper > .right-side > div{
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+
+
+
+#footer{
+  padding: 8px;
+  color: whitesmoke;
+  background: black;
+  text-align: center;
+
+}
