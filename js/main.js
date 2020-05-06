@@ -7,8 +7,8 @@ $('.parallax-window-works').parallax({imageSrc: '../img/more3.jpg'});
 $('.img-text-wrapper').parallax({imageSrc: '../img/willowisp5.jpg'});
 
 
-const worksitems = document.querySelectorAll('.works-item-wrapper');
-worksitems.forEach(worksitem =>{
+ const worksitems = document.querySelectorAll('.works-item-wrapper');
+  worksitems.forEach(worksitem =>{
   worksitem.addEventListener('mouseover', ()=>{
     worksitem.childNodes[1].classList.add('img-darken');
   })
