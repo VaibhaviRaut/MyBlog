@@ -1,21 +1,24 @@
 /* Container Whole Body */
 
 body{
-  margin: 0 auto;
-  font-family: Cambria, sans-serif;
-  padding: 25px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: snow;
-  height: 2000px;
-  width: 1000px;
+  margin: 0;
+  min-height: 1000px;
 }
 
 .container{
-    max-width: 960px;
+    font-family: 'Jost', sans-serif;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 25px;
     background: #eee;
     display: grid;
     grid-template-columns: 1fr;
+    position: center;
 }
  /* Parallex images */
 .parallax-window {
@@ -94,6 +97,38 @@ body{
   text-transform: uppercase;
 }
 
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+    color: black;
+}
+
+
+.active-nav-link{
+  border-bottom: 1px solid black;
+}
+
+/*override the default colour*/
+
+.active-nav-link a{
+  color: black !important;
+}
+
+
 .nav-link-wrapper > .about{
   scroll-behavior: smooth;
 }
@@ -117,8 +152,8 @@ body{
     background-repeat: no-repeat;
 }
 
-.img-text-wrapper .subtitle{
-  z-index: 3;
+.img-text-wrapper{
+
   position: absolute;
   top: 0;
   display: flex;
@@ -130,6 +165,39 @@ body{
   padding-left: 100px;
   padding-right: 100px;
   color: mintcream;
+}
+
+.img-text-wrapper .subtitle{
+  z-index: 3;
+  transition: 1s;
+  font-weight: 600;
+  color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle{
+  z-index: 3;
+  font-weight: 600;
+  color: ghostwhite;
+}
+
+.img-text-wrapper .subtitle .WOTW{
+  z-index: 3;
+  transition: 1s;
+  font-weight: 600;
+  color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle .WOTW{
+  z-index: 3;
+  font-weight: 600;
+  color: ghostwhite;
+  text-decoration: none;
+}
+
+/*Javascript Dynamically add and remove this on hovering*/
+.img-darken {
+  transition: 1s;
+  filter: brightness(10%);
 }
 
 /* Footer */
