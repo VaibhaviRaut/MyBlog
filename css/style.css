@@ -1,19 +1,16 @@
 /* Container Whole Body */
-
-body{
-  font-family: 'Open Sans Condensed', sans-serif;
-  background: maroon;
+.body1{
   margin: 0;
-  min-height: 1000px;
-  padding-left: 250px;
-  padding-right: 250px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  background: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: ghostwhite;
+  padding: 20px 250px;
 }
 
-.container{
+.container1{
     max-width: 1000px;
-    margin: 0 auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
     padding: 25px;
     background: #eee;
     display: grid;
@@ -21,18 +18,24 @@ body{
     position: center;
 }
  /* Parallex images */
-.parallax-window {
-    min-height: 150px;
+
+.img-hello{
+    padding-right: 50px;
+    background-size: cover;
+}
+
+.parallax-window-art{
+    height: 500px;
     padding: 100px 35px;
     background: transparent no-repeat;
     background-size: cover;
 }
 
-.parallax-window-about {
+.parallax-window-about{
     min-height: 50px;
     padding: 30px 35px;
-    background: transparent no-repeat;
     background-size: cover;
+    background: transparent no-repeat fixed;
 }
 
 .profile{
@@ -46,11 +49,12 @@ body{
   position: relative;
   color: black;
   text-align: right;
-  min-height: 300px;
+  background-size: cover;
+  min-height: 400px;
   padding: 30px 35px;
 }
 
-.parallax-window-works {
+.parallax-window-works{
     min-height: 300px;
     padding: 30px 35px;
     background: transparent no-repeat;
@@ -68,7 +72,7 @@ body{
 */
 /*Nav Styles*/
 
-.header > div{
+.header{
   padding: 20px;
   background: black;
   color: white;
@@ -95,6 +99,7 @@ body{
   margin-right: 20px;
   font-size: 0.9em;
   text-transform: uppercase;
+  color: black;
 }
 
 .nav-link-wrapper{
@@ -103,11 +108,10 @@ body{
     transition: border-bottom 0.5s;
 }
 
-.nav-link-wrapper a {
+.nav-link-wrapper > a{
     color: #8a8a8a;
     text-decoration: none;
     transition: color 0.5s;
-
 }
 
 .nav-link-wrapper:hover{
@@ -212,7 +216,7 @@ body{
 }
 
 /*Javascript Dynamically add and remove this on hovering*/
-.img-darken {
+.img-darken{
   z-index: 3;
   transition: 1s;
   filter: brightness(10%);
@@ -224,5 +228,4 @@ body{
   color: whitesmoke;
   background: black;
   text-align: center;
-
 }
