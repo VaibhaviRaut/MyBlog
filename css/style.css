@@ -22,6 +22,8 @@
 .img-hello{
     padding-right: 50px;
     background-size: cover;
+    width: 1000px;
+    object-fit: cover;
 }
 
 .parallax-window-art{
@@ -51,7 +53,7 @@
   text-align: right;
   background-size: cover;
   min-height: 400px;
-  padding: 30px 35px;
+  padding: 50px 39px 30px 460px;
 }
 
 .parallax-window-works{
@@ -61,8 +63,12 @@
     background-size: cover;
 }
 
-
 /*
+.parallax-window-works > #poem-title{
+  z-index: 1;
+  color: whitesmoke;
+}
+
 .parallax-window-about .profile-subtitle{
   font-size: large;
   background: transparent no-repeat;
@@ -70,6 +76,7 @@
   object-position: right;
 }
 */
+
 /*Nav Styles*/
 
 .header{

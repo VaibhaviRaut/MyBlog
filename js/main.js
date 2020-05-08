@@ -13,7 +13,7 @@ $('.img-text-wrapper').parallax({imageSrc: '../img/willowisp5.jpg'});
     worksitem.childNodes[1].classList.add('img-darken');
   })
   worksitem.addEventListener('mouseout', ()=>{
-    worksitem.childNodes[1].classList.remove('img-darken')
+    worksitem.childNodes[1].classList.remove('img-darken');
   })
 
 });
