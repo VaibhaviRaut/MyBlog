@@ -1,0 +1,117 @@
+
+.container2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    padding: 25px;
+    color: ghostwhite;
+    background: lightsteelblue;
+    background-image: url("../img/forest2.jpg");
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: center;
+}
+
+
+/*Nav Styles*/
+
+.header{
+  padding: 20px;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+}
+
+.nav-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 33px;
+}
+
+.left-side{
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div{
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav-wrapper > .right-side > div{
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: black;
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper > a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+    color: black;
+}
+
+
+.active-nav-link{
+  border-bottom: 1px solid black;
+}
+
+/*override the default colour*/
+
+.active-nav-link a{
+  color: black !important;
+}
+
+.nav-link-wrapper > .about{
+  scroll-behavior: smooth;
+}
+
+.nav-wrapper-footer{
+  display: flex;
+  background-color: #222222;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-left > .footer-link-wrap > a{
+  color: whitesmoke;
+  size: 50px;
+}
+
+.footer-right > .footer-link-wrap > a{
+  color: whitesmoke;
+  size: 50px;
+}
+
+/* Poem Images */
+.img-wisp{
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.img-willowisp{
+  padding: 10px;
+}
+
+
+/* Footer */
+#footer{
+  padding: 10px;
+  color: whitesmoke;
+  background: black;
+  text-align: center;
+}

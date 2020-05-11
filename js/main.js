@@ -4,7 +4,7 @@ $('.profile').parallax({imageSrc: '../img/profile3.jpg'});
 
 $('.parallax-window-works').parallax({imageSrc: '../img/more3.jpg'});
 
-$('.img-text-wrapper').parallax({imageSrc: '../img/willowisp5.jpg'});
+//$('.img-text-wrapper').parallax({imageSrc: '../img/willowisp5.jpg'});
 
 
  const worksitems = document.querySelectorAll('.works-item-wrapper');

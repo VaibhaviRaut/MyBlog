@@ -17,6 +17,8 @@
     grid-template-columns: 1fr;
     position: center;
 }
+
+
  /* Parallex images */
 
 .img-hello{
@@ -40,7 +42,7 @@
     background: transparent no-repeat fixed;
 }
 
-.profile{
+.profile1{
     padding: 50px 35px;
     background: transparent no-repeat;
     background-size: 0;
@@ -53,7 +55,7 @@
   text-align: right;
   background-size: cover;
   min-height: 400px;
-  padding: 50px 39px 30px 460px;
+  padding: 70px 70px 30px 550px;
 }
 
 .parallax-window-works{
@@ -221,6 +223,8 @@
   color: ghostwhite;
   text-decoration: none;
 }
+
+
 
 /*Javascript Dynamically add and remove this on hovering*/
 .img-darken{
