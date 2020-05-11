@@ -4,11 +4,10 @@
   background: black;
   font-family: 'Open Sans Condensed', sans-serif;
   color: ghostwhite;
-  padding: 20px 250px;
+  padding: 20px;
 }
 
 .container1{
-    max-width: 1000px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
     padding: 25px;
@@ -24,8 +23,6 @@
 .img-hello{
     padding-right: 50px;
     background-size: cover;
-    width: 1000px;
-    object-fit: cover;
 }
 
 .parallax-window-art{
@@ -55,7 +52,7 @@
   text-align: right;
   background-size: cover;
   min-height: 400px;
-  padding: 70px 70px 30px 550px;
+  padding: 50px 190px 30px 800px;
 }
 
 .parallax-window-works{

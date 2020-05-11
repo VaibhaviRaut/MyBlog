@@ -42,7 +42,9 @@
   margin-right: 20px;
   font-size: 0.9em;
   text-transform: uppercase;
-  color: black;
+  color: #8a8a8a;
+  border-bottom: 1px solid transparent;
+  transition: color 0.5s;
 }
 
 .nav-link-wrapper{
@@ -58,22 +60,22 @@
 }
 
 .nav-link-wrapper:hover{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 .nav-link-wrapper a:hover{
-    color: black;
+    color: white;
 }
 
 
 .active-nav-link{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 /*override the default colour*/
 
 .active-nav-link a{
-  color: black !important;
+  color: whitesmoke !important;
 }
 
 .nav-link-wrapper > .about{
