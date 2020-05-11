@@ -90,6 +90,7 @@ body{
 .logo-wrapper img{
   width: 50%;
   margin-bottom: 20px;
+  border-radius: 50%;
 }
 
 /*Needs to be more specific with Selector*/

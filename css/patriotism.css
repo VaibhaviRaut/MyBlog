@@ -1,86 +1,32 @@
-/* Container Whole Body */
-.body1{
-  margin: 0;
-  background: black;
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: ghostwhite;
-  padding: 20px;
-}
-
-.container1{
+.container3{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
     padding: 25px;
-    background: #eee;
+    color: orange;
+    background: whitesmoke;
+    background-image: url("../img/Patriotism4.1.jpg");
+    background-size: cover;
     display: grid;
     grid-template-columns: 1fr;
     position: center;
 }
 
-
- /* Parallex images */
-
-.img-hello{
-    padding-right: 50px;
-    background-size: cover;
+.container3 .part2{
+  color: darkgreen;
+  position: center;
 }
 
-.parallax-window-art{
-    height: 500px;
-    padding: 100px 35px;
-    background: transparent no-repeat;
-    background-size: cover;
-}
-
-.parallax-window-about{
-    min-height: 50px;
-    padding: 30px 35px;
-    background-size: cover;
-    background: transparent no-repeat fixed;
-}
-
-.profile1{
-    padding: 50px 35px;
-    background: transparent no-repeat;
-    background-size: 0;
-}
-
-.info-about{
-  z-index: 2;
-  position: relative;
-  color: black;
-  text-align: right;
-  background-size: cover;
-  min-height: 400px;
-  padding: 50px 190px 30px 800px;
-}
-
-.parallax-window-works{
-    min-height: 300px;
-    padding: 30px 35px;
-    background: transparent no-repeat;
-    background-size: cover;
-}
-
-/*
-.parallax-window-works > #poem-title{
-  z-index: 1;
+.poemtitle{
   color: whitesmoke;
+  position: center;
 }
-
-.parallax-window-about .profile-subtitle{
-  font-size: large;
-  background: transparent no-repeat;
-  font-family: Cambria;
-  object-position: right;
-}
-*/
-
 /*Nav Styles*/
 
 .header{
   padding: 20px;
-  background: black;
+  background-image: url("../img/india1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   text-transform: uppercase;
 }
@@ -105,7 +51,9 @@
   margin-right: 20px;
   font-size: 0.9em;
   text-transform: uppercase;
-  color: black;
+  color: #8a8a8a;
+  border-bottom: 1px solid transparent;
+  transition: color 0.5s;
 }
 
 .nav-link-wrapper{
@@ -115,28 +63,28 @@
 }
 
 .nav-link-wrapper > a{
-    color: #8a8a8a;
+    color: ivory;
     text-decoration: none;
     transition: color 0.5s;
 }
 
 .nav-link-wrapper:hover{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 .nav-link-wrapper a:hover{
-    color: black;
+    color: white;
 }
 
 
 .active-nav-link{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 /*override the default colour*/
 
 .active-nav-link a{
-  color: black !important;
+  color: whitesmoke !important;
 }
 
 .nav-link-wrapper > .about{
@@ -160,7 +108,8 @@
   size: 50px;
 }
 
-/* Works */
+/* Poem Images */
+
 
 /* Footer */
 #footer{
