@@ -1,5 +1,3 @@
-/*Different Containers*/
-
 .container2{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
@@ -7,19 +5,6 @@
     color: ghostwhite;
     background: lightsteelblue;
     background-image: url("../img/forest2.jpg");
-    background-size: cover;
-    display: grid;
-    grid-template-columns: 1fr;
-    position: center;
-}
-
-.container3{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px;
-    padding: 25px;
-    color: ghostwhite;
-    background: whitesmoke;
-    background-image: url("../img/birds.jpg");
     background-size: cover;
     display: grid;
     grid-template-columns: 1fr;

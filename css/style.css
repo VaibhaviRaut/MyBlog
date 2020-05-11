@@ -52,7 +52,7 @@
   text-align: right;
   background-size: cover;
   min-height: 400px;
-  padding: 50px 190px 30px 800px;
+  padding: 20px 195px 10px 900px;
 }
 
 .parallax-window-works{
@@ -83,6 +83,12 @@
   background: black;
   color: white;
   text-transform: uppercase;
+}
+
+.header h1{
+  position: center;
+  text-align: center;
+  font-size: 45px;
 }
 
 .nav-wrapper{
@@ -160,7 +166,8 @@
   size: 50px;
 }
 
-/* Works */
+/* Certificate */
+
 
 /* Footer */
 #footer{
