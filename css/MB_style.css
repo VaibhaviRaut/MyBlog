@@ -1,13 +1,13 @@
 /* Container Whole Body */
-.body1{
+.body11{
   margin: 0;
   background: black;
   font-family: 'Open Sans Condensed', sans-serif;
   color: ghostwhite;
-  padding: 20px;
+  padding: 20px 280px;
 }
 
-.container1{
+.container11{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
     padding: 25px;
@@ -26,8 +26,8 @@
 }
 
 .parallax-window-art{
-    height: 500px;
-    padding: 100px 35px;
+    height: 1000px;
+    padding: 200px 35px;
     background: transparent no-repeat;
     background-size: cover;
 }
