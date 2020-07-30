@@ -59,7 +59,7 @@
 
 .parallax-window-works{
     min-height: 300px;
-    padding: 30px 35px;
+    padding: 35px 35px;
     background: transparent no-repeat;
     background-size: cover;
 }
@@ -175,7 +175,7 @@
 
 /* Footer */
 #footer{
-
+  padding: 10px;
   color: whitesmoke;
   background: black;
   text-align: center;
