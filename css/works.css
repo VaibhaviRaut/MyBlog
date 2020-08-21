@@ -90,6 +90,7 @@ body{
 .logo-wrapper img{
   width: 50%;
   margin-bottom: 20px;
+  margin-left: 95px;
   border-radius: 50%;
 }
 
@@ -98,6 +99,16 @@ body{
 .img-text-wrapper .subtitle{
   transition: 1s;
   font-weight: 600;
+  color: transparent;
+  text-decoration: none;
+}
+
+.img-text-wrapper .logo-wrapper-more{
+  transition: 1s;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-left: 95px;
+  border-radius: 50%;
   color: transparent;
   text-decoration: none;
 }
